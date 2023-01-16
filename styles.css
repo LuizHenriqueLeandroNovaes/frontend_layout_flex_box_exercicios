@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+}
+
+.container{
+    background-color: #7c187c;
+    height: 100vh;
+    width: 200px;
+    position: relative;
+}
+
+h1{
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 20px 0;  
+
+    display: flex ;
+    justify-content: center;
+}
+
+.pai{
+    color: #A3A3A3;
+}
+
+.pai div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    gap: 8px;
+}
+
+.pai img{
+    width: 30px;
+}
+
+.barra{
+    position: absolute;
+    bottom: 100px;
+    width: 200px;
+}
+
+.perfil img{
+    border-radius: 50%;
+    border: 3px solid #0FA20F;
+    width: 90px;
+    margin-top: 20px;
+    
+}
+
+.perfil {
+    display: flex ;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.final{
+    color: #A3A3A3;
+    position:relative;
+    bottom: -80px;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.final img{
+    width: 30px;
+}
+
+
+
